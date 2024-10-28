@@ -1,0 +1,78 @@
+/* Body styling */
+body {
+    background-color: #F5F5DC;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Headings */
+h1, h2 {
+    color: #005477;
+}
+
+/* Navbar and Footer */
+footer {
+    background-color: #000 !important;
+    color: #FFF !important;
+}
+
+/* Title styling */
+h1.display-4 {
+    color: #007bff;
+}
+
+/* Paragraph spacing */
+p {
+    margin-bottom: 1rem;
+}
+
+/* Link styling */
+a {
+    color: #0056b3;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table header customization */
+.table thead th {
+    background-color: #008000;
+    color: #F5F5DC;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+.btn-primary:hover {
+    background-color: #45a049;
+}
+
+/* Utility classes for spacing and custom backgrounds */
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.custom-bg {
+    display: inline-block;
+    background-color: lightblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px white;
+    font-size: 1.5rem;
+}
+
+.custom-bf {
+    display: inline-block;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px white;
+    font-size: 1.5rem;
+}
+
+.no-bg, .no-bf {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
